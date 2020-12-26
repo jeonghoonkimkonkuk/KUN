@@ -4,3 +4,7 @@ This project, called KUN, is an application that delivers academic announcements
 Download Link is here.
 
 https://play.google.com/store/apps/details?id=com.kunotice.kunotice
+
+## App Description
+
+
