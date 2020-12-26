@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--카카오 번역기 참고함-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuNotice"
+        android:title="通知" />
+    <item
+        android:id="@+id/menuMajorInfo"
+        android:title="部门信息指南" />
+    <item
+        android:id="@+id/menuAddOrDelete"
+        android:title="删除最喜欢的" />
+</menu>

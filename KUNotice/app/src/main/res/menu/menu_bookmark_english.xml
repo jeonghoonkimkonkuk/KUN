@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--파파고 번역기 참고함-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuNotice"
+        android:title="Notice" />
+    <item
+        android:id="@+id/menuMajorInfo"
+        android:title="Department information guide" />
+    <item
+        android:id="@+id/menuAddOrDelete"
+        android:title="Delete favorites" />
+</menu>

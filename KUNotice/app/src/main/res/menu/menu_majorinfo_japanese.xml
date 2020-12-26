@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--카카오 번역기 참고함-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCopy1"
+        android:title="研究室のコピー" />
+    <item
+        android:id="@+id/menuCopy2"
+        android:title="連絡先のコピー" />
+    <item
+        android:id="@+id/menuCopy3"
+        android:title="電子メールコピー" />
+    <item
+        android:id="@+id/menuCopy4"
+        android:title="全コピー" />
+</menu>

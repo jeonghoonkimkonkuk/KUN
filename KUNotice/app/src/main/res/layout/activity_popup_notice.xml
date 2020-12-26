@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/linearlayout_border_3"
+    android:orientation="vertical"
+    tools:context=".PopupNotice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00A03E"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popupNotice0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="공지사항"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/popupNotice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="5dp"
+                    android:text="공지사항을 읽어오는 중입니다."
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/popupNotice2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:lineSpacingExtra="5dp"-->
+<!--                    android:text="KU융합과학기술원 스마트운행체공학과\nKU융합과학기술원 의생명공학과\n건축대학 건축학부\n상허생명과학대학 환경보건과학과\n예술디자인대학 산업디자인학과"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/popupNotice3"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:lineSpacingExtra="5dp"-->
+<!--                    android:text="\n그리고 상허생명과학대학 소속 학과에 대하여 건국대학교 홈페이지에 학과 정보가 기재되어 있지 않은 이유로 학과정보안내 기능이 제공되지 않습니다."-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="15sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/popupNotice4"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:lineSpacingExtra="5dp"-->
+<!--                    android:text="\n또한 예술디자인대학 커뮤니케이션디자인학과와 상허생명과학대학 생명과학특성학과는 과 홈페이지의 문제로 모든 기능이 지원되지 않습니다."-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="15sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/popupNotice5"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:lineSpacingExtra="5dp"-->
+<!--                    android:text="\n쿤(KUN)을 이용해 주시는 분들께 양해를 부탁드리며, 공지사항과 학과정보안내 기능의 정상화를 위해 최대한 노력하겠습니다.\n감사합니다."-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="15sp" />-->
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/linearlayout_border_2"
+        android:orientation="horizontal"
+        android:paddingTop="2dp">
+
+        <Button
+            android:id="@+id/closeBtn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:background="@drawable/button_divide_line_1"
+            android:onClick="onCloseBtn1Clicked"
+            android:text="24시간동안다시보지않기"
+            android:textColor="#00A03E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/closeBtn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="#FFFFFF"
+            android:onClick="onCloseBtn2Clicked"
+            android:text="닫기"
+            android:textColor="#00A03E"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

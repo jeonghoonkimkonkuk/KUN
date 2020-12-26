@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCopy1"
+        android:title="实验室复制" />
+    <item
+        android:id="@+id/menuCopy2"
+        android:title="联系人复印件" />
+    <item
+        android:id="@+id/menuCopy3"
+        android:title="电子邮件复制" />
+    <item
+        android:id="@+id/menuCopy4"
+        android:title="全文副本" />
+</menu>
